@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <h1>Welcome to Ted Yoo's Website</h1>
         <p>
-          Hi, I'm Ted Yoo. This is my personal website. Feel free to explore!
+          Hi, I'm Ted. This is my personal website. Feel free to explore!
         </p>
         <a
           className="App-link"
