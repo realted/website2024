@@ -23,26 +23,36 @@
   margin-top: 5rem;
 }
 
+.profile-image{
+  margin-right: 3.5rem;
+}
+
 .Rect1 {
-  width: 24rem;
+  width: 26.5rem;
   height: 0.45rem;
   background-color: #80B1D1;
   margin: 0 auto;
   margin-top: -3.08rem;
 }
 
-
-.App-text1 {
-  color: #ffffff;
-  font-size: 2rem;
+.desc {
+  font-family: 'Handlee', cursive;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 200;
+  color: white;
+  margin-top: 1rem;
+  margin-left: 29rem;
+  margin-right: 29rem;
 }
 
-.profile-image{
-  margin-right: 1rem;
+.gridSelect {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+  padding: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.gridBox{
+  
 }
-
-

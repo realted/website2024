@@ -12,6 +12,17 @@ function App() {
         </header>  
       </div>
       <div className="Rect1"></div>
+      <header className="desc">
+          <p>My name is Ted Yoo and I am currently a 2nd Year studying
+             Engineering Science at University of Toronto. I aspire to 
+              study, and research either robotics, ECE, or Machine Intelligence </p>
+      </header>  
+      <div className="gridSelect">
+        <div className="gridBox">
+
+
+        </div>
+      </div>
     </div>
   );
 }
