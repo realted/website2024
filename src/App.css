@@ -35,24 +35,64 @@
   margin-top: -3.08rem;
 }
 
+.topDescBox{
+  width: 26.5rem;
+  height: 11rem;
+  margin: 0 auto;
+  margin-bottom: -4.5rem; 
+}
+
 .desc {
   font-family: 'Handlee', cursive;
   font-size: 1.3rem;
   font-style: normal;
   font-weight: 200;
   color: white;
-  margin-top: 1rem;
-  margin-left: 29rem;
-  margin-right: 29rem;
 }
 
 .gridSelect {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 15rem 15rem;
   gap: 2rem;
   padding: 2rem;
+  justify-content: center;
 }
 
-.gridBox{
-  
+.gridBox1{
+  width: 235px;
+  height: 235px;
+  opacity: 0.83;
+  border-radius: 18px;
+  background: #E8ECEB;
+}
+
+.gridBox2{
+  width: 235px;
+  height: 235px;
+  opacity: 0.83;
+  border-radius: 18px;
+  background: #A9B6BE;
+}
+
+.gridBox3{
+  width: 235px;
+  height: 235px;
+  opacity: 1;
+  border-radius: 18px;
+  background: #A9B6BE;
+}
+.gridBox4{
+  width: 235px;
+  height: 235px;
+  border-radius: 18px;
+  background: #E8ECEB;
+}
+
+.descBox{
+  font-family: 'Handlee', cursive;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 200;
+  margin-top: 6rem;
+  color: #2F4550;
 }

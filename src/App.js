@@ -12,15 +12,35 @@ function App() {
         </header>  
       </div>
       <div className="Rect1"></div>
-      <header className="desc">
-          <p>My name is Ted Yoo and I am currently a 2nd Year studying
-             Engineering Science at University of Toronto. I aspire to 
-              study, and research either robotics, ECE, or Machine Intelligence </p>
-      </header>  
+
+      <div className="topDescBox">
+        <header className="desc">
+            <p>My name is Ted Yoo and I am currently a 2nd Year studying
+              Engineering Science at University of Toronto. I aspire to 
+                study, and research either robotics, ECE, or Machine Intelligence </p>
+        </header>  
+      </div>
+
       <div className="gridSelect">
-        <div className="gridBox">
-
-
+        <div className="gridBox1">
+          <header className="descBox">
+            <p> Projects </p>
+          </header>
+        </div>
+        <div className="gridBox2">
+          <header className="descBox">
+            <p> Blogs </p>
+          </header>
+        </div>
+        <div className="gridBox3">
+          <header className="descBox">
+            <p> GitHub </p>
+          </header>
+        </div>
+        <div className="gridBox4">
+          <header className="descBox">
+            <p> LinkedIn </p>
+          </header>
         </div>
       </div>
     </div>
