@@ -59,12 +59,14 @@
 }
 
 .gridBox1{
+  text-decoration: None;
   width: 235px;
   height: 235px;
   opacity: 0.83;
   border-radius: 18px;
   background: #E8ECEB;
 }
+
 
 .gridBox2{
   width: 235px;
