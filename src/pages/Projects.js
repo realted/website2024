@@ -8,7 +8,9 @@ export default function Projects() {
     {act: "UTEK Hackathon", actDesc: "Creating an effective wind powered car", 
      to: "http://tinyurl.com/he79sydx", date: "NOV 11"},
     {act: "RSX ARM Mechanical", actDesc: "Manufacturing Carbon Fibre for extraterrestial rovers", 
-     to: "http://tinyurl.com/5fea93mz", date: "NOV 1"}
+     to: "http://tinyurl.com/5fea93mz", date: "NOV 1"},
+    {act: "Engineering Handbook", actDesc: "Summarizing my positionality of minimalistic design", 
+     to: "http://tinyurl.com/2p87awhs", date: "APR 18"}
   ];
 
   return (
@@ -28,7 +30,7 @@ export default function Projects() {
                 <div className = "inner-triangle"> </div>
               </div>
             </div>
-            <Link key = {index} to={element.to} className = "projBox">
+            <Link key = {index} to={element.to} className = "projBox" target="_blank">
               <div className = "projBox">
                   <header className = "projDesc">
                       <p>{element.act}</p>
@@ -40,9 +42,6 @@ export default function Projects() {
             </Link>
           </div>
       ))}
-
-      
-    
     </div>
     </>
   );

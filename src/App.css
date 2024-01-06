@@ -4,6 +4,8 @@
   text-align: center;
   background-color: #2F4550;
   min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .RowTop {
@@ -110,6 +112,8 @@
   min-height: 100vh;
   flex: shrink 0;
   text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 3000px;
 }
 
@@ -123,7 +127,7 @@
   font-size: 7rem;
   margin-top:-8rem;
   margin-bottom:-6.3rem;
-  margin-left: 5rem;
+  margin-left: 2.5rem;
 }
 
 .projLayout{
@@ -142,7 +146,7 @@
   background: #C5D5E0;
   text-decoration: none;
   box-shadow: 0px 0px 35px 3px rgba(0, 0, 0, 0.25);
-  margin-bottom: 6rem;
+  margin-bottom: 7.5rem;
   
 }
 
@@ -184,6 +188,7 @@
   color: #FFFFFF;
   pointer-events: none;
   margin-right: 0.4rem;
+  margin-left: -5rem;
 }
 
 .triangle{
