@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import Blogs from './pages/blogs';
 
 
 import React from 'react';
@@ -14,6 +15,7 @@ export default function App(){
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/blogs" element={<Blogs />} />
         </Routes>
       </BrowserRouter>
     </div>
@@ -29,7 +31,7 @@ href="https://drive.google.com/file/d/12AK-qRWreXqj3JOBNNbF-U6W69YMEzwO/view?usp
 target="_blank"
 rel="noopener noreferrer"
 >
-My Resume
+My Resume   
 </a>
 
 */}

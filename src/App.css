@@ -69,6 +69,7 @@
 
 
 .gridBox2{
+  text-decoration: None;
   width: 235px;
   height: 235px;
   opacity: 0.83;
@@ -77,6 +78,7 @@
 }
 
 .gridBox3{
+  text-decoration: None;
   width: 235px;
   height: 235px;
   opacity: 1;
@@ -84,6 +86,7 @@
   background: #A9B6BE;
 }
 .gridBox4{
+  text-decoration: None;
   width: 235px;
   height: 235px;
   border-radius: 18px;
