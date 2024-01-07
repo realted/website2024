@@ -107,6 +107,8 @@
   color: #2F4550;
 }
 
+/* Projects */
+
 .proj{
   background: linear-gradient(180deg, #2F4550 0%, rgba(98, 131, 147, 0.87) 99.99%, rgba(79, 119, 139, 0.00) 100%);
   min-height: 100vh;
@@ -128,7 +130,7 @@
   margin-top:-8rem;
   margin-bottom:-6.3rem;
   margin-left: 2.5rem;
-}
+ }
 
 .projLayout{
   display: flex;
@@ -146,8 +148,7 @@
   background: #C5D5E0;
   text-decoration: none;
   box-shadow: 0px 0px 35px 3px rgba(0, 0, 0, 0.25);
-  margin-bottom: 7.5rem;
-  
+  margin-bottom: 7.5rem; 
 }
 
 .projDesc{
@@ -199,7 +200,6 @@
   border-left: 40px solid #A9B6BE;
   margin-right: 1.5rem;
   pointer-events: none;
-
 }
 
 .inner-triangle {
@@ -212,6 +212,85 @@
   border-bottom: 20px solid transparent;
   border-left: 28px solid #D9D9D9;
   pointer-events: none;
-
 }
 
+
+/* Blogs */
+.blogs{
+  background: #80B1D1;
+  min-height: 100vh;
+  flex: shrink 0;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 3000px;
+}
+
+.blogTitle{
+  font-family: 'Segoe UI', cursive;
+  font-style: normal;
+  font-weight: 700;
+  background: linear-gradient(181deg, #FFF 0.79%, rgba(255, 255, 255, 0.94) 0.8%, rgba(255, 255, 255, 0.24) 147.45%, rgba(255, 255, 255, 0.00) 147.47%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 7rem;
+  margin-top:-8rem;
+  margin-bottom:9rem;
+ }
+
+.blogLayout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.blogBox{
+  width: 422px;
+  height: 141px;
+  opacity: 1;
+  border-radius: 18px;
+  background: #F0F6FA;
+  text-decoration: none;
+  box-shadow: 0px 0px 35px 3px rgba(0, 0, 0, 0.25);
+  margin-top: -5rem;
+  margin-bottom: 2rem; 
+}
+
+/* Use header .projDesc for box description,
+   Use p .projExp for blog explanation*/
+
+.vertex-up{
+  width: 35px; 
+  height: 35px; 
+  border-top: 9px solid #F0F6FA;
+  border-left: 9px solid #F0F6FA;
+  border-bottom: 9px solid transparent;
+  border-right: 9px solid transparent;
+  position: relative;
+  top: -130px;
+  left: -120px;
+}
+
+.vertex-down{
+  width: 35px; 
+  height: 35px; 
+  border-top: 9px solid transparent;
+  border-left: 9px solid transparent;
+  border-bottom: 9px solid #F0F6FA;
+  border-right: 9px solid #F0F6FA;
+  position: relative;
+  top: -120px;
+  left: 240px;
+}
+
+.bottomRow{
+  font-family: 'segoe ui', cursive;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  position: relative;
+  top: -23px;
+}

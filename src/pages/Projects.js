@@ -9,6 +9,8 @@ export default function Projects() {
      to: "http://tinyurl.com/he79sydx", date: "NOV 11"},
     {act: "RSX ARM Mechanical", actDesc: "Manufacturing Carbon Fibre for extraterrestial rovers", 
      to: "http://tinyurl.com/5fea93mz", date: "NOV 1"},
+    {act: "Raspberry Pi Self Driving Car", actDesc: "Using machine learning models to train the PI car", 
+     to: "http://tinyurl.com/3pmc3xsm", date: "JUN 13"},
     {act: "Engineering Handbook", actDesc: "Summarizing my positionality of minimalistic design", 
      to: "http://tinyurl.com/2p87awhs", date: "APR 18"}
   ];
