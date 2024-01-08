@@ -3,16 +3,16 @@ import {Link} from "react-router-dom";
 
 export default function Blogs(){
     const blogContent = [
-        {blog: "y2f and running", written: "Written: 1/7 '24", read: "Read: 5 mins",
+        {blog: "y2 and running", written: "Written: 1/7 '24", read: "Read: 10 mins",
+          to: "https://therealtedyoo.substack.com/p/y2-eng-sci-and-running"},
+        {blog: "Memory Nodes", written: "Written: TBD", read: "Read: TBD",
           to: ""},
-        {blog: "Memory Nodes", written: "Written: 1/7 '24", read: "Read: 5 mins",
+        {blog: "Interview vs Dates", written: "Written: TBD", read: "Read: TBD",
           to: ""},
-        {blog: "Interview vs Dates", written: "Written: 1/7 '24", read: "Read: 5 mins",
-          to: ""},
-        {blog: "'Finish 30 Now'", written: "Written: 1/7 '24", read: "Read: 5 mins",
+        {blog: "'Finish 30 Now'", written: "Written: TBD", read: "Read: TBD",
           to: ""},    
     ];
-
+    
     return (
         <>
         <div className="blogs">
@@ -20,13 +20,23 @@ export default function Blogs(){
                 <p>Blogs</p>
             </header>
 
-            {blogContent.map((element) => (
+            <Link to="https://therealtedyoo.substack.com" className = "substack" target="_blank">
+                <div className = "substack">
+                    <header className="subtext">
+                        <p> Substack </p>
+                    </header>
+                </div>
+            </Link>
+
+            {blogContent.map((element, index) => (
                 <div className = "blogLayout">
-                    <div className = "blogBox">
-                        <header className = "projDesc">
-                            <p>{element.blog}</p>
-                        </header>
-                    </div>
+                    <Link  key = {index} to={element.to} className="projDesc" target="_blank">
+                        <div className = "blogBox">
+                            <header className = "projDesc">
+                                <p>{element.blog}</p>
+                            </header>
+                        </div>
+                    </Link>
                     <header className = "projExp">
                         <p> {element.written} </p>
                         <p className = "bottomRow"> {element.read} </p>
