@@ -6,6 +6,7 @@
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%
 }
 
 .RowTop {
@@ -117,6 +118,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 3000px;
+  width: 100%
 }
 
 .y2023{
@@ -225,6 +227,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 3000px;
+  width: 100%
 }
 
 .blogTitle{
@@ -318,3 +321,6 @@
   position: relative;
   top: -23px;
 }
+
+/* Mobile Usability*/
+
