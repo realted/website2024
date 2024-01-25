@@ -7,9 +7,9 @@ export default function Blogs(){
           to: "https://therealtedyoo.substack.com/p/y2-eng-sci-and-running"},
         {blog: "Memory Nodes", written: "Written: TBD", read: "Read: TBD",
           to: ""},
-        {blog: "Interview vs Dates", written: "Written: TBD", read: "Read: TBD",
+        {blog: "TBD", written: "Written: TBD", read: "Read: TBD",
           to: ""},
-        {blog: "'Finish 30 Now'", written: "Written: TBD", read: "Read: TBD",
+        {blog: "TBD", written: "Written: TBD", read: "Read: TBD",
           to: ""},    
     ];
     
