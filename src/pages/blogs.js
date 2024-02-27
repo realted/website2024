@@ -5,12 +5,12 @@ export default function Blogs(){
     const blogContent = [
         {blog: "y2 and running", written: "Written: 1/7 '24", read: "Read: 10 mins",
           to: "https://therealtedyoo.substack.com/p/y2-eng-sci-and-running"},
-        {blog: "Memory Nodes", written: "Written: TBD", read: "Read: TBD",
+        {blog: " TBD ", written: "Written: TBD", read: "Read: TBD",
           to: ""},
         {blog: "TBD", written: "Written: TBD", read: "Read: TBD",
           to: ""},
         {blog: "TBD", written: "Written: TBD", read: "Read: TBD",
-          to: ""},    
+          to: ""}
     ];
     
     return (

@@ -222,6 +222,7 @@
 /* Blogs */
 .blogs{
   background: #80B1D1;
+  background: linear-gradient(181deg, #80B1D1 0.79%, #DDDCCC 59.47%);
   min-height: 100vh;
   flex: shrink 0;
   text-align: center;

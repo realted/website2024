@@ -3,6 +3,8 @@ import {Link} from "react-router-dom";
 
 export default function Projects() {
   const timeline2024 = [
+    {act: "3D SWIM", actDesc: "Sequential Wave Imprinting Machine projected in 3D Space",
+    to: "https://devpost.com/software/3-dimensional-sequencial-wave-imprinting-machine", date: "Feb 18"},
     {act: "AR Sunglasses: Medilense", actDesc: "UTRA Hacks biomedical product for ASD Individuals",
     to: "https://devpost.com/software/medilens?ref_content=my-projects-tab&ref_feature=my_projects", date: "Jan 24"}
   ];
