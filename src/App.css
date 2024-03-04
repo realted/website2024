@@ -60,7 +60,7 @@
 .profile-image{
   width: 45rem;
   height: auto;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 .socials{
@@ -115,7 +115,6 @@
   }
 }
 
-
 /* Projects */
 
 .proj{
@@ -130,7 +129,7 @@
 }
 
 .y2023{
-  font-family: 'Segoe UI', cursive;
+  font-family: 'Segoe UI';
   font-style: normal;
   font-weight: 700;
   background: linear-gradient(181deg, #FFF 0.79%, rgba(255, 255, 255, 0.94) 0.8%, rgba(255, 255, 255, 0.24) 147.45%, rgba(255, 255, 255, 0.00) 147.47%);
@@ -163,7 +162,7 @@
 
 .projDesc{
   text-align: center;
-  font-family: 'Handlee', cursive;
+  font-family: 'Handlee';
   font-size: 2rem;
   font-style: normal;
   font-weight: 300;
@@ -174,7 +173,7 @@
 
 .projExp{
   text-align: center;
-  font-family: 'segoe ui', cursive;
+  font-family: 'segoe ui';
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
@@ -193,7 +192,7 @@
 
 .projDate{
   text-align: center;
-  font-family: 'Segoe UI', cursive;
+  font-family: 'Segoe UI';
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 600;
@@ -240,7 +239,7 @@
 }
 
 .blogTitle{
-  font-family: 'Segoe UI', cursive;
+  font-family: 'Segoe UI';
   font-style: normal;
   font-weight: 700;
   background: linear-gradient(181deg, #FFF 0.79%, rgba(255, 255, 255, 0.94) 0.8%, rgba(255, 255, 255, 0.24) 147.45%, rgba(255, 255, 255, 0.00) 147.47%);
@@ -266,7 +265,7 @@
 
 .subtext{
   text-align: center;
-  font-family: 'Handlee', cursive;
+  font-family: 'Handlee';
   font-size: 2rem;
   font-style: normal;
   font-weight: 300;
@@ -322,7 +321,7 @@
 }
 
 .bottomRow{
-  font-family: 'segoe ui', cursive;
+  font-family: 'segoe ui';
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
@@ -331,5 +330,4 @@
   top: -23px;
 }
 
-/* Mobile Usability*/
 
