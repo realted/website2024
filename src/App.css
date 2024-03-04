@@ -1,112 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Gowun+Dodum&display=swap');
 
 .App{
   text-align: center;
-  background-color: #2F4550;
+  background-color: #071C27;
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%
+  width: 100%;
 }
 
-.RowTop {
+
+.flexLR{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.App-header {
-  font-family: 'Handlee', cursive;
-  font-size: 3rem;
+.flexColumn{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: start;
+  margin-right: 8rem;
+
+}
+
+.name {
+  font-family: 'Fredoka';
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: #B18155;
+  text-align: start;
+}
+
+.descMain{
+  font-family: 'Gowun Dodum';
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 200;
-  color: white;
-  margin-top: 5rem;
+  color: #FFFFFF;
+  text-align: start;
+  margin-top:1rem;
+  text-decoration: none;
 }
 
 .profile-image{
-  margin-right: 3.5rem;
+  width: 45rem;
+  height: auto;
+  margin-top: 8rem;
 }
 
-.Rect1 {
-  width: 26.5rem;
-  height: 0.45rem;
-  background-color: #80B1D1;
-  margin: 0 auto;
-  margin-top: -3.08rem;
+.socials{
+  display: flex;
+  flex-direction: row;
+  margin-left: 27rem;
 }
 
-.topDescBox{
-  width: 26.5rem;
-  height: 11rem;
-  margin: 0 auto;
-  margin-bottom: -4.5rem; 
+.social-image{
+  margin-left: 2rem;
+  color: #555555;
+  font-size: 50px;
 }
 
-.desc {
-  font-family: 'Handlee', cursive;
-  font-size: 1.3rem;
-  font-style: normal;
-  font-weight: 200;
-  color: white;
-}
-
-.gridSelect {
-  display: grid;
-  grid-template-columns: 15rem 15rem;
-  gap: 2rem;
-  padding: 2rem;
-  justify-content: center;
-}
-
-.gridBox1{
-  text-decoration: None;
-  width: 235px;
-  height: 235px;
-  opacity: 0.83;
-  border-radius: 18px;
-  background: #E8ECEB;
-  box-shadow: 0px 0px 35px 3px rgba(0, 0, 0, 0.25);
-}
-
-
-.gridBox2{
-  text-decoration: None;
-  width: 235px;
-  height: 235px;
-  opacity: 0.83;
-  border-radius: 18px;
-  background: #A9B6BE;
-  box-shadow: 0px 0px 35px 3px rgba(0, 0, 0, 0.25);
-}
-
-.gridBox3{
-  text-decoration: None;
-  width: 235px;
-  height: 235px;
+.im-div{
+  width: 80px;
+  height: 80px;
+  border-radius: 3px;
   opacity: 1;
-  border-radius: 18px;
-  background: #A9B6BE;
-  box-shadow: 0px 0px 35px 3px rgba(0, 0, 0, 0.25);
-}
-.gridBox4{
-  text-decoration: None;
-  width: 235px;
-  height: 235px;
-  border-radius: 18px;
-  background: #E8ECEB;
-  box-shadow: 0px 0px 35px 3px rgba(0, 0, 0, 0.25);
-}
-
-.descBox{
-  font-family: 'Handlee', cursive;
-  font-size: 2.2rem;
-  font-style: normal;
-  font-weight: 200;
-  margin-top: 6rem;
-  color: #2F4550;
 }
 
 /* Projects */
