@@ -9,7 +9,7 @@ export default function Home() {
     { to: "/about", className: "descMain", label: "About", target: "_self"},
     { to: "/blogs", className: "descMain", label: "Blogs", target: "_self" },
     { to: "/projects", className: "descMain", label: "Projects", target: "_self" },
-    { to: "", className: "descMain", label: "Experience", target: "_self" },
+    { to: "/experience", className: "descMain", label: "Experience", target: "_self" },
   ];
 
   return (
@@ -21,7 +21,7 @@ export default function Home() {
           <div className="name">
             <p>TED <br></br> YOO</p>
           </div>
-          
+
           {menuItems.map((menuItem, index) => (
             <Link key={index} to={menuItem.to} className={menuItem.className} target={menuItem.target}>
               <div className="descMain">

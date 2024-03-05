@@ -26,7 +26,7 @@ export default function Projects() {
     { to: "/about", className: "navHeader", label: "About"},
     { to: "/blogs", className: "navHeader", label: "Blogs"},
     { to: "/projects", className: "navHeader", label: "Projects"},
-    { to: "", className: "navHeader", label: "Experience" },
+    { to: "/experience", className: "navHeader", label: "Experience" },
   ];
 
   return (
