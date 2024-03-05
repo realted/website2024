@@ -1,15 +1,15 @@
 import React from "react";
 import moneyShot from './money.png';
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin} from 'react-icons/fa';
 import {Link} from "react-router-dom";
 
 export default function Home() {
 
   const menuItems = [
-    { to: "/about", className: "descMain", label: "About", target: "_blank"},
-    { to: "/blogs", className: "descMain", label: "Blogs", target: "_blank" },
-    { to: "/projects", className: "descMain", label: "Projects", target: "_blank" },
-    { to: "", className: "descMain", label: "Experience", target: "_blank" },
+    { to: "/about", className: "descMain", label: "About", target: "_self"},
+    { to: "/blogs", className: "descMain", label: "Blogs", target: "_self" },
+    { to: "/projects", className: "descMain", label: "Projects", target: "_self" },
+    { to: "", className: "descMain", label: "Experience", target: "_self" },
   ];
 
   return (

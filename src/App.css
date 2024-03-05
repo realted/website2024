@@ -127,6 +127,22 @@
   height: 3000px;
   width: 100%
 }
+.topNav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 74rem;
+}
+
+.homeIcon{
+  color: #555555;
+  font-size:70px;
+  margin-left:40rem;
+}
+
+.homeIcon:hover {
+  color: #ffffff;
+}
 
 .y2023{
   font-family: 'Fredoka';
@@ -135,10 +151,10 @@
   background: #fabf88;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 7rem;
-  margin-top:-8rem;
-  margin-bottom:-6.3rem;
-  margin-left: -39rem;
+  font-size: 6rem;
+  margin-top:-6rem;
+  margin-bottom:-4.3rem;
+  margin-left: -42rem;
  }
 
 .projLayout{
