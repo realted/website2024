@@ -46,7 +46,7 @@ export default function Projects() {
         ))}
       </div>
 
-      <div className = "topBar"/>
+      
       <header className="y2023">
             <p>2024</p>
       </header>
