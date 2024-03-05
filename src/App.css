@@ -131,13 +131,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 74rem;
+  margin-left: 80.5rem;
 }
 
 .homeIcon{
   color: #555555;
   font-size:70px;
-  margin-left:40rem;
+  margin-left: 49rem;
 }
 
 .homeIcon:hover {
@@ -147,14 +147,14 @@
 .y2023{
   font-family: 'Fredoka';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   background: #fabf88;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 6rem;
-  margin-top:-6rem;
+  font-size: 4.4rem;
+  margin-top:-5rem;
   margin-bottom:-4.3rem;
-  margin-left: -42rem;
+  margin-left: -52rem;
  }
 
 .projLayout{
@@ -175,7 +175,7 @@
 }
 
 .projBar2024{
-  width: 24px;
+  width: 16px;
   height: 433px;
   opacity: 1;
   border-radius: 18px;
@@ -186,7 +186,7 @@
 }
 
 .projBar2023{
-  width: 24px;
+  width: 16px;
   height: 803px;
   opacity: 1;
   border-radius: 18px;
@@ -208,7 +208,7 @@
   pointer-events: auto;
   width: 300px;
   word-wrap: break-word;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 .projDesc:hover {
@@ -225,7 +225,7 @@
   pointer-events: none;
   width: 300px;
   word-wrap: break-word;
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 
 
@@ -237,7 +237,7 @@
   color: #FFFFFF;
   pointer-events: none;
   margin-right: 0.4rem;
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 
 .triangle{
@@ -246,7 +246,7 @@
   border-top: 28px solid transparent;
   border-bottom: 28px solid transparent;
   border-left: 40px solid #A9B6BE;
-  margin-left: 3rem;
+  margin-left: 4rem;
   margin-right: 1.5rem;
   pointer-events: none;
 }
