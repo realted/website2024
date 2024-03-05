@@ -125,19 +125,50 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 3000px;
-  width: 100%
+  width: 100%;
+  padding-top: 1rem;
 }
 .topNav{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 80.5rem;
+  margin-left: 2rem;
+  pointer-events: None;
+  justify-content: center;
 }
+
+.navHeader{
+  text-align: center;
+  font-family: 'Gowun Dodum';
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #FFFFFF;
+  pointer-events: auto;
+  text-decoration: None;
+  margin-left: 2.7rem;
+}
+
+.navHeader:hover{
+  color: #fabf88;
+}
+
+.topBar{
+  width: 750px;
+  height: 8px;
+  opacity: 1;
+  border-radius: 18px;
+  background: #555555;
+  text-decoration: none;
+  margin-left: 21rem;
+  margin-bottom: 7rem;
+}
+
 
 .homeIcon{
   color: #555555;
-  font-size:70px;
-  margin-left: 49rem;
+  font-size:55px;
+  margin-left:2rem;
+  pointer-events: auto;
 }
 
 .homeIcon:hover {
@@ -154,7 +185,7 @@
   font-size: 4.4rem;
   margin-top:-5rem;
   margin-bottom:-4.3rem;
-  margin-left: -52rem;
+  margin-left: -33rem;
  }
 
 .projLayout{
@@ -200,7 +231,7 @@
 .projDesc{
   text-align: center;
   font-family: 'Gowun Dodum';
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 300;
   color: #FFFFFF;
   padding: 20px 0;
@@ -208,24 +239,11 @@
   pointer-events: auto;
   width: 300px;
   word-wrap: break-word;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .projDesc:hover {
   color: #fabf88;
-}
-
-.projExp{
-  text-align: center;
-  font-family: 'Gowun Dodum';
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  color: #FFFFFF;
-  pointer-events: none;
-  width: 300px;
-  word-wrap: break-word;
-  margin-left: 4rem;
 }
 
 
@@ -237,7 +255,7 @@
   color: #FFFFFF;
   pointer-events: none;
   margin-right: 0.4rem;
-  margin-left: 4rem;
+  margin-left: 7rem;
 }
 
 .triangle{
@@ -246,8 +264,8 @@
   border-top: 28px solid transparent;
   border-bottom: 28px solid transparent;
   border-left: 40px solid #A9B6BE;
-  margin-left: 4rem;
-  margin-right: 1.5rem;
+  margin-left: 6rem;
+  margin-right:1.5rem;
   pointer-events: none;
 }
 

@@ -21,7 +21,7 @@ export default function Home() {
           <div className="name">
             <p>TED <br></br> YOO</p>
           </div>
-        
+          
           {menuItems.map((menuItem, index) => (
             <Link key={index} to={menuItem.to} className={menuItem.className} target={menuItem.target}>
               <div className="descMain">
