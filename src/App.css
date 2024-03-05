@@ -35,7 +35,7 @@
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 600;
-  margin-top: 1rem;
+  margin-top: -2rem;
   color: #fabf88;
   text-align: start;
 }
@@ -47,7 +47,7 @@
   font-weight: 200;
   color: #FFFFFF;
   text-align: start;
-  margin-top:1rem;
+  margin-top:0.5rem;
   text-decoration: none;
   transition: transform 0.3s ease;
 }
@@ -60,7 +60,7 @@
 .profile-image{
   width: 45rem;
   height: auto;
-  margin-top: 4rem;
+  margin-top: 2.5rem;
 }
 
 .socials{
@@ -68,7 +68,7 @@
   flex-direction: row;
   justify-content: center;
   margin-left: -50rem;
-  margin-top: -2rem;
+  margin-top:-1rem;
 }
 
 .social-image{
@@ -118,7 +118,7 @@
 /* Projects */
 
 .proj{
-  background: linear-gradient(180deg, #2F4550 0%, rgba(98, 131, 147, 0.87) 99.99%, rgba(79, 119, 139, 0.00) 100%);
+  background: #071C27;
   min-height: 100vh;
   flex: shrink 0;
   text-align: center;
@@ -129,16 +129,16 @@
 }
 
 .y2023{
-  font-family: 'Segoe UI';
+  font-family: 'Fredoka';
   font-style: normal;
-  font-weight: 700;
-  background: linear-gradient(181deg, #FFF 0.79%, rgba(255, 255, 255, 0.94) 0.8%, rgba(255, 255, 255, 0.24) 147.45%, rgba(255, 255, 255, 0.00) 147.47%);
+  font-weight: 600;
+  background: #fabf88;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 7rem;
   margin-top:-8rem;
   margin-bottom:-6.3rem;
-  margin-left: 2.5rem;
+  margin-left: -39rem;
  }
 
 .projLayout{
@@ -149,57 +149,79 @@
   margin: 0 auto;
 }
 
-.projBox{
-  width: 422px;
-  height: 141px;
+.infoLayout{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  margin: 0 auto;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.projBar2024{
+  width: 24px;
+  height: 433px;
   opacity: 1;
   border-radius: 18px;
-  background: #C5D5E0;
+  background: #fabf88;
   text-decoration: none;
-  box-shadow: 0px 0px 35px 3px rgba(0, 0, 0, 0.25);
-  margin-bottom: 7.5rem; 
+  margin-bottom: 2rem; 
+  margin-left: 3rem;
 }
+
+.projBar2023{
+  width: 24px;
+  height: 803px;
+  opacity: 1;
+  border-radius: 18px;
+  background: #fabf88;
+  text-decoration: none;
+  margin-bottom: 2rem; 
+  margin-left: 3rem;
+}
+
 
 .projDesc{
   text-align: center;
-  font-family: 'Handlee';
+  font-family: 'Gowun Dodum';
   font-size: 2rem;
-  font-style: normal;
   font-weight: 300;
-  color: #2F4550;
+  color: #FFFFFF;
   padding: 20px 0;
   text-decoration: None;
+  pointer-events: auto;
+  width: 300px;
+  word-wrap: break-word;
+  margin-left: 2rem;
+}
+
+.projDesc:hover {
+  color: #fabf88;
 }
 
 .projExp{
   text-align: center;
-  font-family: 'segoe ui';
+  font-family: 'Gowun Dodum';
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
   color: #FFFFFF;
   pointer-events: none;
+  width: 300px;
+  word-wrap: break-word;
+  margin-left: 2rem;
 }
 
-.dayLayout {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  pointer-events: none;
-  margin-bottom: 6rem;
-}
 
 .projDate{
   text-align: center;
-  font-family: 'Segoe UI';
-  font-size: 1.2rem;
-  font-style: normal;
+  font-family: 'Fredoka';
+  font-size: 1.8rem;
   font-weight: 600;
   color: #FFFFFF;
   pointer-events: none;
   margin-right: 0.4rem;
-  margin-left: -5rem;
+  margin-left: 2rem;
 }
 
 .triangle{
@@ -208,6 +230,7 @@
   border-top: 28px solid transparent;
   border-bottom: 28px solid transparent;
   border-left: 40px solid #A9B6BE;
+  margin-left: 3rem;
   margin-right: 1.5rem;
   pointer-events: none;
 }

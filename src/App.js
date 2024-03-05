@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
+import Home from './pages/home';
 import Projects from './pages/Projects';
 import Blogs from './pages/blogs';
 import About from './pages/about';
@@ -23,20 +23,3 @@ export default function App(){
     </div>
   )
 }
-
-
-
-{/*
-<a
-className="App-link"
-href="https://drive.google.com/file/d/12AK-qRWreXqj3JOBNNbF-U6W69YMEzwO/view?usp=drive_link"
-target="_blank"
-rel="noopener noreferrer"
->
-My Resume   
-</a>
-
-*/}
-
-
-
