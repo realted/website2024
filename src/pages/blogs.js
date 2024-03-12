@@ -1,49 +1,36 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import Navbar from './Navbar';
+import blogpic1 from './blogpic1.png';
 
 export default function Blogs(){
     const blogContent = [
-        {blog: "y2 and running", written: "Written: 1/7 '24", read: "Read: 10 mins",
+        {blog: "y2 and running", written: "Written: 1/7 '24", img: blogpic1,
           to: "https://therealtedyoo.substack.com/p/y2-eng-sci-and-running"},
-        {blog: " TBD ", written: "Written: TBD", read: "Read: TBD",
+        {blog: " TBD ", written: "Written: TBD", read: "img: TBD",
           to: ""},
-        {blog: "TBD", written: "Written: TBD", read: "Read: TBD",
-          to: ""},
-        {blog: "TBD", written: "Written: TBD", read: "Read: TBD",
-          to: ""}
     ];
     
     return (
 
         <div className="blogs">
             <Navbar />
-            <header className="blogTitle">
+            <header className="y2023">
                 <p>Blogs</p>
             </header>
 
-            <Link to="https://therealtedyoo.substack.com" className = "substack" target="_blank">
-                <div className = "substack">
-                    <header className="subtext">
-                        <p> Substack </p>
-                    </header>
-                </div>
-            </Link>
-
             {blogContent.map((element, index) => (
                 <div className = "blogLayout">
+            
+                    <img src={element.img} className="blogImg" alt="blogImage"/>
+            
                     <Link  key = {index} to={element.to} className="projDesc" target="_blank">
-                        <div className = "blogBox">
-                            <header className = "projDesc">
-                                <p>{element.blog}</p>
-                            </header>
-                        </div>
+                        <header className = "projDesc">
+                            <p>{element.blog}</p>
+                        </header>
                     </Link>
-                    <header className = "projExp">
+                    <header className = "blogDesc">
                         <p> {element.written} </p>
-                        <p className = "bottomRow"> {element.read} </p>
-                        <div className = "vertex-up"></div>
-                        <div className = "vertex-down"></div>
                     </header>
                 </div>
             ))}

@@ -50,9 +50,6 @@ export default function Projects() {
                 <header className="projDesc">
                   <p>{item.act}</p>
                 </header>
-                <header className="projExp">
-                  <p>{item.actDesc}</p>
-                </header>
               </Link>
             ))}
           </div>
