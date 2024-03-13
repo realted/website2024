@@ -11,7 +11,6 @@ export default function Blogs(){
     ];
     
     return (
-
         <div className="blogs">
             <Navbar />
             <header className="blogTitle">

@@ -357,3 +357,24 @@
 .homeIcon:hover {
   color: #ffffff;
 }
+
+/* about */
+
+.aboutImg{
+  height: auto;
+  margin-top: 2rem;
+  pointer-events: auto;
+  width: 25%;
+}
+
+.yap{
+  font-family: 'Gowun Dodum';
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #FFFFFF;
+  width: 500px;
+  word-wrap: break-word;
+  text-align: center;
+  margin-left: 43.5rem;
+  margin-top: 3rem;
+}
