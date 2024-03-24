@@ -5,13 +5,13 @@ import aboutPic from './aboutImg.jpg';
 export default function Blogs(){
 
     return(
-        <div className="proj">
+        <div className="about">
             <Navbar/>
             <header className="blogTitle">
                 <p>About</p>
             </header>
             <img src={aboutPic} className="aboutImg" alt="blogImage" />
-            <header className="yap">
+            <div className="yap">
                 <p>Hello! My name is Ted and I'm a "happy" 2nd year Engineering Science student at the University of Toronto. 
                     I am planning to specialize in Machine Intelligence in my program. <br></br><br></br> 
                     I really think its not that deep, just balance three things: Academics, Athletics, and Mental Health/Mindfullness. 
@@ -20,7 +20,7 @@ export default function Blogs(){
                     after all. 
                     
                 </p>
-            </header>
+            </div>
         </div>
     );
 }

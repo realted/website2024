@@ -360,6 +360,19 @@
 
 /* about */
 
+.about{
+  background: #071C27;
+  min-height: 100vh;
+  flex: shrink 0;
+  text-align: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2000px;
+  width: 100%;
+  padding-top: 2rem;
+}
+
 .aboutImg{
   height: auto;
   margin-top: 2rem;
@@ -372,9 +385,9 @@
   font-size: 1.4rem;
   font-weight: 300;
   color: #FFFFFF;
-  width: 500px;
-  word-wrap: break-word;
-  text-align: center;
-  margin-left: 43.5rem;
   margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 27%;
+  margin: 0 auto;
 }
