@@ -18,7 +18,7 @@ export default function Blogs(){
                     Academics is for finding out what you want to do with your life, athletics is for finding out who you want to be in 
                     life and mental health/mindfullness is for ensuring you achieve whatever you figure out. Maybe that was a little deep
                     after all. 
-                    
+
                 </p>
             </div>
         </div>

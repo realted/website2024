@@ -1,6 +1,6 @@
 import React from "react";
 import moneyShot from './money.png';
-import { FaGithub, FaInstagram, FaLinkedin} from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaStrava} from 'react-icons/fa';
 import {Link} from "react-router-dom";
 
 export default function Home() {
@@ -42,6 +42,9 @@ export default function Home() {
         </a>
         <a href="https://www.linkedin.com/in/ted-yoo1/" className = "social-image" target="_blank">
           <FaLinkedin />
+        </a>
+        <a href="https://www.strava.com/athletes/126773040" className = "social-image" target="_blank">
+          <FaStrava />
         </a>
       </div>
     </div>
