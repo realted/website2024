@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import blogpic1 from './blogpic1.png';
 import blogpic2 from './blogpic2.jpg';
 import blogpic3 from './blogpic3.jpg';
-import blogpic2 from './blogpic2.jpg';
+
 
 export default function Blogs(){
     const blogContent = [
@@ -27,7 +27,7 @@ export default function Blogs(){
                 <div className = "blogLayout">            
                     <Link  key = {index} to={element.to} className="blogLayout" target="_blank">
                         <img src={element.img} className="blogImg" alt="blogImage" style = {{width: '400px'}}/>
-                        <img src={element.img} className="blogImg" alt="blogImage" style = {{width: '400px'}}/>
+                        
                         <header className = "blogName">
                             <p>{element.blog}</p>
                             <header className = "blogDesc"> {element.written} </header>
