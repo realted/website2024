@@ -4,7 +4,7 @@
 
 
 
-.App{
+.App {
   text-align: center;
   background-color: #071C27;
   min-height: 100vh;
@@ -14,14 +14,14 @@
 }
 
 
-.flexLR{
+.flexLR {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.flexColumn{
+.flexColumn {
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -40,14 +40,14 @@
   text-align: start;
 }
 
-.descMain{
+.descMain {
   font-family: 'Gowun Dodum';
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 200;
   color: #FFFFFF;
   text-align: start;
-  margin-top:0.5rem;
+  margin-top: 0.5rem;
   text-decoration: none;
   transition: transform 0.3s ease;
 }
@@ -57,21 +57,21 @@
   transform: translateX(4px)
 }
 
-.profile-image{
+.profile-image {
   width: 45rem;
   height: auto;
   margin-top: 2.5rem;
 }
 
-.socials{
+.socials {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-left: -45rem;
-  margin-top:-1rem;
+  margin-top: -1rem;
 }
 
-.social-image{
+.social-image {
   margin-left: 2rem;
   color: #555555;
   font-size: 50px;
@@ -79,45 +79,45 @@
 }
 
 .social-image:hover {
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
-  .flexLR{
-    flex-direction: column; 
+  .flexLR {
+    flex-direction: column;
     align-items: center;
   }
-  
-  .flexColumn{
+
+  .flexColumn {
     margin-right: 0;
   }
-  
-  .profile-image{
-    width: 80%; 
+
+  .profile-image {
+    width: 80%;
     max-width: 300px;
-    margin-top: 2rem; 
+    margin-top: 2rem;
   }
-  
-  .socials{
+
+  .socials {
     display: flex;
     flex-direction: row;
-    justify-content: center; 
-    margin: 2rem 0; 
+    justify-content: center;
+    margin: 2rem 0;
   }
-  
-  .social-image{
-    margin: 0 1rem; 
+
+  .social-image {
+    margin: 0 1rem;
     transition: color 0.3s ease;
   }
-  
+
   .social-image:hover {
-    color: #ffffff; 
+    color: #ffffff;
   }
 }
 
 /* Projects */
 
-.proj{
+.proj {
   background: #071C27;
   min-height: 100vh;
   flex: shrink 0;
@@ -129,7 +129,7 @@
   padding-top: 2rem;
 }
 
-.y2023{
+.y2023 {
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 500;
@@ -137,12 +137,12 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 4.4rem;
-  margin-top:-5rem;
-  margin-bottom:-4.3rem;
+  margin-top: -5rem;
+  margin-bottom: -4.3rem;
   margin-left: -33rem;
- }
+}
 
-.projLayout{
+.projLayout {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -150,7 +150,7 @@
   margin: 0 auto;
 }
 
-.infoLayout{
+.infoLayout {
   display: grid;
   grid-template-columns: auto auto auto auto;
   align-items: center;
@@ -159,30 +159,30 @@
   pointer-events: none;
 }
 
-.projBar2024{
+.projBar2024 {
   width: 16px;
   height: 433px;
   opacity: 1;
   border-radius: 18px;
   background: #fabf88;
   text-decoration: none;
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
   margin-left: 3rem;
 }
 
-.projBar2023{
+.projBar2023 {
   width: 16px;
   height: 803px;
   opacity: 1;
   border-radius: 18px;
   background: #fabf88;
   text-decoration: none;
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
   margin-left: 3rem;
 }
 
 
-.projDesc{
+.projDesc {
   text-align: center;
   font-family: 'Gowun Dodum';
   font-size: 1.8rem;
@@ -201,7 +201,7 @@
 }
 
 
-.projDate{
+.projDate {
   text-align: center;
   font-family: 'Fredoka';
   font-size: 1.8rem;
@@ -212,14 +212,14 @@
   margin-left: 7rem;
 }
 
-.triangle{
-  width: 0; 
-  height: 0; 
+.triangle {
+  width: 0;
+  height: 0;
   border-top: 28px solid transparent;
   border-bottom: 28px solid transparent;
   border-left: 40px solid #A9B6BE;
   margin-left: 6rem;
-  margin-right:1.5rem;
+  margin-right: 1.5rem;
   pointer-events: none;
 }
 
@@ -237,7 +237,7 @@
 
 
 /* Blogs */
-.blogs{
+.blogs {
   background: #071C27;
   min-height: 100vh;
   flex: shrink 0;
@@ -249,7 +249,7 @@
   padding-top: 2rem;
 }
 
-.blogTitle{
+.blogTitle {
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 500;
@@ -257,11 +257,11 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 4.4rem;
-  margin-top:-5rem;
-  margin-bottom:-4.3rem;
- }
+  margin-top: -5rem;
+  margin-bottom: -4.3rem;
+}
 
-.subtext{
+.subtext {
   text-align: center;
   font-family: 'Handlee';
   font-size: 2rem;
@@ -271,7 +271,7 @@
   padding-top: 0.01rem;
 }
 
-.blogLayout{
+.blogLayout {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -281,7 +281,7 @@
   pointer-events: None;
 }
 
-.blogDesc{
+.blogDesc {
   text-align: center;
   font-family: 'Gowun Dodum';
   font-size: 1.2rem;
@@ -290,10 +290,10 @@
   pointer-events: None;
   width: 300px;
   word-wrap: break-word;
-  margin-top:-1.5rem;
+  margin-top: -1.5rem;
 }
 
-.blogName{
+.blogName {
   text-align: center;
   font-family: 'Gowun Dodum';
   font-size: 2.3rem;
@@ -303,10 +303,10 @@
   pointer-events: None;
   width: 300px;
   word-wrap: break-word;
-  margin-top:-1rem;
+  margin-top: -1rem;
 }
 
-.blogImg{
+.blogImg {
   height: auto;
   margin-top: 2.5rem;
   pointer-events: auto;
@@ -315,13 +315,14 @@
 }
 
 
-.blogImg:hover{
+.blogImg:hover {
   opacity: 0.8;
-  
+
 }
+
 /* Nav */
 
-.topNav{
+.topNav {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -331,7 +332,7 @@
   justify-content: center;
 }
 
-.navHeader{
+.navHeader {
   text-align: center;
   font-family: 'Gowun Dodum';
   font-size: 1.5rem;
@@ -342,15 +343,15 @@
   margin-left: 2.7rem;
 }
 
-.navHeader:hover{
+.navHeader:hover {
   color: #fabf88;
 }
 
 
-.homeIcon{
+.homeIcon {
   color: #555555;
-  font-size:55px;
-  margin-left:2rem;
+  font-size: 55px;
+  margin-left: 2rem;
   pointer-events: auto;
 }
 
@@ -360,7 +361,7 @@
 
 /* about */
 
-.about{
+.about {
   background: #071C27;
   min-height: 100vh;
   flex: shrink 0;
@@ -373,14 +374,14 @@
   padding-top: 2rem;
 }
 
-.aboutImg{
+.aboutImg {
   height: auto;
   margin-top: 2rem;
   pointer-events: auto;
   width: 25%;
 }
 
-.yap{
+.yap {
   font-family: 'Gowun Dodum';
   font-size: 1.4rem;
   font-weight: 300;
@@ -391,4 +392,3 @@
   max-width: 27%;
   margin: 0 auto;
 }
-
