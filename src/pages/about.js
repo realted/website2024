@@ -12,13 +12,16 @@ export default function Blogs() {
             </header>
             <img src={aboutPic} className="aboutImg" alt="blogImage" />
             <div className="yap">
-                <p>Hello! My name is Ted and I'm a "happy" 2nd year Engineering Science student at the University of Toronto.
-                    I am planning to specialize in Machine Intelligence in my program. <br></br><br></br>
-                    I really think its not that deep, just balance three things: Academics, Athletics, and Mental Health/Mindfullness.
-                    Academics is for finding out what you want to do with your life, athletics is for finding out who you want to be in
-                    life and mental health/mindfullness is for ensuring you achieve whatever you figure out. Maybe that was a little deep
-                    after all.
-
+                <p>Hi I'm Ted! I'm Currently a 3rd year Engineering Science student in the ECE stream at the University of Toronto.
+                    <br></br><br></br>
+                    A bit on life recently, My third year in the ECE stream has been super rewarding because I feel like I made the best possible choice for myself,
+                    finding interest in topics such as computer architecture, electronics, and communication. This fails to never inspire me, 
+                    and I am curious as to what the future holds for me here. 
+                    <br></br><br></br>
+                    For me, its not that deep, just balance three things: Academics, Athletics, and Mental Health.
+                    Academics: What to do with life, Athletics: Type of person you want to be in life, Mental Health: To keep it going.
+                    <br></br><br></br>
+                    If you want to reach out to me do so at therealtedyoo@gmail.com!
                 </p>
             </div>
         </div>
