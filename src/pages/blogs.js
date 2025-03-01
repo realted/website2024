@@ -16,10 +16,7 @@ export default function Blogs() {
             blog: "A Lens through Lorentz", written: "Written: 4/11 '24", img: blogpic2,
             to: "https://therealtedyoo.substack.com/p/a-lens-through-lorentz"
         },
-        {
-            blog: "Second Year me is dead", written: "Written: 4/28 '24", img: blogpic3,
-            to: "https://therealtedyoo.substack.com/p/second-year-me-is-dead"
-        },
+       
         {
             blog: "Be a little silly", written: "Written: 9/5 '24", img: blogpic4,
             to: "https://therealtedyoo.substack.com/p/be-a-little-silly"
