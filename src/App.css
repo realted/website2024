@@ -19,6 +19,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  
 }
 
 .flexColumn {
@@ -27,7 +28,6 @@
   text-decoration: none;
   justify-content: start;
   margin-right: 8rem;
-
 }
 
 .name {
@@ -47,7 +47,7 @@
   font-weight: 200;
   color: #FFFFFF;
   text-align: start;
-  margin-top: 0.5rem;
+  margin-top: 0rem;
   text-decoration: none;
   transition: transform 0.3s ease;
 }
@@ -60,7 +60,7 @@
 .profile-image {
   width: 45rem;
   height: auto;
-  margin-top: 2.5rem;
+  margin-top: 5rem;
 }
 
 .socials {
@@ -343,6 +343,54 @@
   margin-left: 2.7rem;
 }
 
+.navColumn {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: start;
+  margin-top: -21rem;
+  margin-left: 27.3rem;
+}
+
+.navColumn_blog {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: start;
+  margin-top: -63.2rem;
+  margin-left: 15.2rem;
+  margin-right: 13rem;
+}
+
+.navColumn_about{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: start;
+  margin-top: -23.9rem;
+  margin-left: 14.2rem;
+  margin-right: 11rem;
+}
+
+.navColumn_proj{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: start;
+  margin-top: -48.6rem;
+  margin-left: -0.6rem;
+  margin-right: 6rem;
+}
+
+.navColumn_exp{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: start;
+  margin-top: 8.6rem;
+  margin-left: 27.1rem;
+  margin-right: -30.1rem;
+}
 .navHeader:hover {
   color: #fabf88;
 }
@@ -351,7 +399,7 @@
 .homeIcon {
   color: #555555;
   font-size: 55px;
-  margin-left: 2rem;
+  margin-left: -2rem;
   pointer-events: auto;
 }
 
@@ -374,11 +422,15 @@
   padding-top: 2rem;
 }
 
+.aboutContent{
+    margin-right: 32rem;
+}
+
 .aboutImg {
   height: auto;
   margin-top: 2rem;
   pointer-events: auto;
-  width: 25%;
+  width: 20rem;
 }
 
 .yap {
@@ -389,6 +441,36 @@
   margin-top: 3rem;
   justify-content: center;
   align-items: center;
-  max-width: 40%;
   margin: 0 auto;
+  width: 26rem;
+}
+
+/* exp */
+
+.exp {
+  background: #071C27;
+  min-height: 100vh;
+  flex: shrink 0;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.expText {
+  font-family: 'Gowun Dodum';
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 26rem;
+}
+
+.expContent{
+  margin-right: 0rem;
 }

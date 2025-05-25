@@ -8,9 +8,9 @@ const menuItems = [
     { to: "/projects", className: "navHeader", label: "Projects"},
     { to: "/experience", className: "navHeader", label: "Experience" },
   ];
-const Navbar = () => {
+const Navbar_exp = () => {
     return(
-        <div className="navColumn">
+        <div className="navColumn_exp">
             <Link to="/home" target="_self">
             <div className="homeIcon">
                 <IoMdHome />
@@ -27,4 +27,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default Navbar_exp;
