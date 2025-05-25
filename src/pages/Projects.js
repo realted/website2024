@@ -4,6 +4,8 @@ import Navbar_proj from './Navbar_proj';
 
 export default function Projects() {
   const timeline2024 = [
+    { act: "Signals Paper", to: "https://tinyurl.com/3z56bu7w", date: "DEC 4" },
+    { act: "Nand2Tetris", to: "https://github.com/realted/Nand2Tetris-CPU-from-Scratch", date: "Jun 30" },
     { act: "3D SWIM", to: "https://devpost.com/software/3-dimensional-sequencial-wave-imprinting-machine", date: "FEB 18" },
     { act: "AR SUNGLASSES: MEDILENS", to: "https://devpost.com/software/medilens?ref_content=my-projects-tab&ref_feature=my_projects", date: "JAN 24" }
   ];
